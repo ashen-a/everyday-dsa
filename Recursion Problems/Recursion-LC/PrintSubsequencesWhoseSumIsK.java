@@ -18,8 +18,8 @@ public class PrintSubsequencesWhoseSumIsK {
             return;
 
         }
-        list.add(arr[ind]);
         sum += arr[ind];
+        list.add(arr[ind]);
         subs(arr, ind + 1, list, sum, k);
 
         sum -= arr[ind];
