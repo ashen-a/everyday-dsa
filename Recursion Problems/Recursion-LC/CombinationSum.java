@@ -17,7 +17,7 @@ public class CombinationSum {
             return;
         }
 
-        if (ind == arr.length || 0) {
+        if (ind == arr.length || target < 0) {
             return;
         }
 
