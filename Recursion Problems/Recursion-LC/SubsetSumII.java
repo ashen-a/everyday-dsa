@@ -6,7 +6,7 @@ public class SubsetSumII {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> ansList = new ArrayList<>();
-        findSubsets(0, nums, new ArrayList<>, ansList);
+        findSubsets(0, nums, new ArrayList<>(), ansList);
         return ansList;
     }
     public void findSubsets(int ind, int[] nums, List<Integer> ds, List<List<Integer>> ansList) {
